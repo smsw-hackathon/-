@@ -3,7 +3,7 @@ import {Image, Button, Form, Input } from 'antd'
 import styled from 'styled-components';
 import logo from '../mark.png'
 import Axios from 'axios'
-
+import '../../App.css';
 
 const RegisterPage = () =>{
     const [form] = Form.useForm();
@@ -115,6 +115,8 @@ const RegisterPage = () =>{
 
 const StyledItem = styled(Form.Item)`
     color: white;
+    background-color : rgb(230, 230, 230);
+    padding : 1.5px;
 `
 const Sname = styled(Form.Item.name)`
     color: white;
